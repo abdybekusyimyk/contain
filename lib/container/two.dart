@@ -24,6 +24,7 @@ class Two extends StatelessWidget {
           Image.asset(
             'assets/images/oymot.png',
           ),
+          
         ],
       ),
     );
