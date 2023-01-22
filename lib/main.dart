@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hhhhhh/paka/paka.dart';
-
-// import 'container/container.dart';
-import 'container/red.dart';
-import 'container/two.dart';
+import 'package:hhhhhh/gridview/cart.dart';
+import 'package:hhhhhh/gridview/grit.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,10 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: FunnyContainer(),
-      // home: MyHomePage(),
-      home: Red(),
-      // home: Two(),
+      home: const Grit(),
+      // home: const Grit(),
     );
   }
 }
