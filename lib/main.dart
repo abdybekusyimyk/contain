@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 // import 'package:hhhhhh/data/fata.dart';
 // import 'package:hhhhhh/gridview/cart.dart';
 // import 'package:hhhhhh/gridview/grit.dart';
-import 'package:hhhhhh/gridviewtilbil/forexemple.dart';
+// import 'package:hhhhhh/gridviewtilbil/forexemple.dart';
+import 'package:hhhhhh/text/text.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Forexemple(),
+      home: const Exemple(),
     );
   }
 }
